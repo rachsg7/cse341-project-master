@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+main {
+    margin: 0 5%;
+}
+
+.main__header {
+    text-align: center;
+    background-color: #53a19a;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+.product__title {
+    padding: .5em;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 9em;
+    max-width: 85%;
+    margin: auto;
+}
+
+article.card {
+    box-shadow: 0px 0px 7px #3c3c3c;
+    padding: 5%;
+    display: grid;
+    transition: box-shadow .5s;
+}
+
+article.card:hover {
+    box-shadow: 0px 0px 20px #3c3c3c;
+}
+
+.product__action {
+    align-self: flex-end;
+}
+
+.card__image img {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 200px;
+}
+
+.btn {
+    border: 1px solid #53a19a;
+    color: #53a19a;
+}
+
+.btn:hover {
+    border: 1px solid #2e5855;
+    color: #2e5855;
+}
+
+.centered {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
